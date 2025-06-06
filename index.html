@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Congregação Rio Verde I</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #FFD700;
+    }
+    header {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      margin-top: 10px;
+      font-style: italic;
+    }
+    nav {
+      background-color: #222;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #FFD700;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .section {
+      padding: 30px;
+      text-align: center;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border: 2px solid #FFD700;
+      border-radius: 10px;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #FFD700;
+      color: black;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #111;
+      color: #888;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Congregação Rio Verde I</h1>
+    <p>“Alegrei-me quando me disseram: Vamos à casa do Senhor.” — Salmos 122:1</p>
+  </header>
+
+  <nav>
+    <a href="#programacao">Programações</a>
+    <a href="#fotos">Galeria de Fotos</a>
+    <a href="https://instagram.com/igreja_rio_verde" target="_blank">Instagram</a>
+  </nav>
+
+  <section class="section" id="programacao">
+    <h2>Programações</h2>
+    <p>Em breve nossa agenda de cultos e eventos será atualizada aqui!</p>
+  </section>
+
+  <section class="section" id="fotos">
+    <h2>Galeria de Fotos</h2>
+    <h3>Festividade de Departamentos</h3>
+    <div class="gallery">
+      <img src="fotos/festividade1.jpg" alt="Festividade 1">
+      <img src="fotos/festividade2.jpg" alt="Festividade 2">
+    </div>
+    <a class="button" href="downloads/festividade.zip">Baixar Todas</a>
+
+    <h3 style="margin-top: 40px;">Culto em Ação de Graças</h3>
+    <div class="gallery">
+      <img src="fotos/gratidao1.jpg" alt="Gratidão 1">
+      <img src="fotos/gratidao2.jpg" alt="Gratidão 2">
+    </div>
+    <a class="button" href="downloads/acao_de_Gracas.zip">Baixar Todas</a>
+  </section>
+
+  <footer>
+    &copy; 2025 Congregação Rio Verde I. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
